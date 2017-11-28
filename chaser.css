@@ -1,4 +1,17 @@
 canvas {
   border: 1px solid blue;
-  margin: 20px;
+  margin-top: 10px;
+}
+
+progress {
+  width: 300px;  
+}
+
+h1 {
+  font: 32px "Brush Script MT";  
+}
+
+body {
+  margin-top: 0;
+  padding-left: 20px;
 }
