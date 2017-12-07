@@ -1,17 +1,42 @@
 canvas {
-  border: 1px solid blue;
+  border: 1px solid black;
   margin-top: 10px;
 }
 
-progress {
-  width: 300px;  
+h1 {
+  margin: 0;
+  font: 50px "Serif", monospacea;
+  text-align: center;
+  width: 800px
 }
 
-h1 {
-  font: 32px "Brush Script MT";  
+p {
+  margin: 0;
+  font: 25px "Serif";
+}
+
+p2 {
+  margin: 0;
+  font: 25px "Serif";
+  text-align: center;
+}
+
+progress {
+  padding-top: 0;
+  border: 5px solid black;
+  background-color: red;
+  width: 800px;
+}
+
+progress::-webkit-progress-value {
+  background: red;
+}
+
+progress::-webkit-progress-bar {
+  background: black;
 }
 
 body {
-  margin-top: 0;
+  margin-top: 10px;
   padding-left: 20px;
 }
