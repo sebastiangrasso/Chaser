@@ -2,11 +2,19 @@
 <html>
   <head>
     <meta charset = "utf-8">
-    <link rel = "stylesheet" href = "chaser.css">
-    </head>
-  <p><progress max=100 value=100></progress></p>
-    <body>
-<canvas width="800" height="800"></canvas>
-<script src = "chaser.js"></script>
+<h1>KEEP AWAY</h1>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+<p><progress id="health" max=100 value=100></progress> </p> 
+  
+<p2>
+Score:<span id="score">0</span>&nbsp;High Score:<span id="highscore">0</span></p>
+</p2>
+
+<canvas width="800" height="600" onclick="mouseClick(event);"></canvas>
+
+<script src="main.js" type="text/javascript"></script>
    </body>
   </html>
